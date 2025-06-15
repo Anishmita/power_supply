@@ -20,7 +20,7 @@ df = load_data()
 series = df["PJMW_MW"]
 
 # --- LOAD PRE-TRAINED SARIMA MODEL ---
-model: ARIMAXResults = joblib.load("arima_model.pkl")
+model: SARIMAXResults = joblib.load("arima_model.pkl")
 
 # --- USER INPUT ---
 st.sidebar.header("🔧 Forecast Settings")
