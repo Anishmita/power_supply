@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import joblib
-from statsmodels.tsa.statespace.arimax import ARIMAXResults
+from statsmodels.tsa.statespace.sarimax import SARIMAXResults
 
 # --- SETTINGS ---
 st.set_page_config(page_title="ARIMA Forecast", layout="wide")
